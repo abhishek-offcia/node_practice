@@ -1,15 +1,18 @@
 {
-  "name": "node_complete_learning",
+  "name": "working_express",
   "version": "1.0.0",
-  "description": "Node all learning steps",
+  "description": "Express leraning steps",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "Abhishek Dutta",
+  "author": "Abhishek dutta",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
