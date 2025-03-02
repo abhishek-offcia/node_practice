@@ -1,7 +1,7 @@
 {
-  "name": "working_express",
+  "name": "working_express_router",
   "version": "1.0.0",
-  "description": "Express leraning steps",
+  "description": "Create route using express",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
