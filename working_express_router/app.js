@@ -6,6 +6,7 @@ const adminRouter = require('./routes/admin');
 const homeRouter = require('./routes/home');
 // const shopRouter = require('./routes/shop');
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, 'public')));
 //app.use('/admin',shopRouter);
 app.use(homeRouter);
 app.use('/admin',adminRouter);

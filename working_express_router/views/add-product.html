@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/product.css">
 </head>
-<body>
-    <header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="/">Shop</a></li>
-            <li><a href="/admin/add-product">Add Product</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <form action="/admin/product" method="POST">
-        <label for="title">Title</label>
-        <input type="text" id="title" name="title">
-        <button type="submit">Add Product</button>
+<body class="page page--home">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="/">Shop</a></li>
+                <li class="nav__item"><a class="nav__link" href="/admin/add-product">Add Product</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main class="main">
+    <form class="form form--add-product" action="/admin/product" method="POST">
+        <label class="form__label" for="title">Title</label>
+        <input class="form__input" type="text" id="title" name="title">
+        <button class="form__button" type="submit">Add Product</button>
+    </form>
 </main>
 </body>
 </html>
